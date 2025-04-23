@@ -1,0 +1,357 @@
+*{margin:0; padding:0;}
+
+header, nav, main, aside, article, section, footer, div{
+    display: block;
+}
+
+#wrapper{
+    margin:0px 125px;
+}
+
+body {
+    background-color: #F3EAD6;
+}
+
+header {
+    margin:32px 122px 32px 32px;
+    display: flex;
+}
+
+
+#logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo span {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 93px;
+    margin-top: 21px;
+    color: #A66D45;
+    font-size: 24px;
+    width: 191px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 6px;/*25% of 24px = 0.25 × 24 = 6px*/
+    display: inline-block;
+}
+
+
+nav a{
+    font-family: 'Nunito', sans-serif;
+    color: #F6B6A7;
+    font-weight: 400;
+    font-size: 30px;
+    padding-right: 62px;
+}
+nav a:hover {
+    font-weight: bold;
+}
+
+#topbar {
+    margin-left: 419px;
+    margin-top: 16px;
+    display: block;
+}
+
+section#main-page {
+    background: url("../images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 797px;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+
+#text {
+
+    margin-top: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+#text span{
+    font-family: 'Nunito', sans-serif;
+    font-size: 96px;
+    color: #F6B6A7;
+    font-weight: 800;
+}
+
+#text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #A66D45;
+    font-weight: 600;
+}
+
+#second-part{
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+#second-part span{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #F6B6A7;
+    display: block;
+}
+
+#second-part p{
+    margin-top: 32px;
+    font-family: 'Rubik', sans-serif;
+    color: #A66D45;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 141%;
+}
+
+
+.content-rec {
+    margin-top: 32px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #A66D45;
+    font-size: 40px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+.price-text h1 {
+    color: #A66D45;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card {
+    background-color: #F6B6A7;
+    width: 376px;
+    height: 496px;
+    border-radius: 38px;
+    position: relative; /* C’est essentiel */
+    overflow: hidden; /* Facultatif, mais empêche les débordements */
+  }
+  
+  .card-price-and-logo {
+    position: absolute;
+    bottom: 27px;
+    left: 32px;
+    right: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    color: #A66D45;
+    /* Pas besoin de largeur ici sauf si c'est vraiment nécessaire */
+  }
+  
+  .basket {
+    background-color: #A7A155;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+.card-image {
+    /* background-color: rgb(255, 0, 50); */
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 38px;
+}
+
+.card-title {
+    margin-top: 21px;
+    margin-left: 32px;
+}
+
+.card-title h2 {
+    color: #A66D45;
+    font-size: 30px;
+
+}
+
+.card-description {
+    color: #A66D45;
+    margin-top: 7px;
+    margin-left: 32px;
+}
+
+.price-text h1 {
+    font-size: 28px;
+}
+
+
+.heart {
+    background-color: #F6B6A7;
+    border-radius: 50px;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 35px;
+    right: 42px;
+}
+
+.heart img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+footer{
+    background-color: #f1deb3;
+    margin-top: 246px;
+}
+
+
+footer h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+footer ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A66D45;
+    list-style-type: none;
+
+}
+
+footer li{
+    margin-bottom: 8px;
+}
+
+#footer-sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 32px;
+}
+
+#icons{
+    color: #A66D45;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+#icons img{
+    margin-right: 24px;
+}
+
+#name p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #A66D45;
+    margin-top: 16px;
+    margin-left: 32px;
+    padding-bottom: 51px;
+}
+
+#best-seller {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.flower img{
+    border: 4px solid;
+    border-color: #A66D45;
+}
+
+#flower-list h1{
+    font-family: 'Rubik', sans-serif; 
+}
+
+.flower-item p{
+    font-family: 'Rubik', sans-serif;
+    color: #A66D45;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.flower-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-list {
+    background-color: #F6B6A7;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    color: #A66D45;
+    font-size: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
