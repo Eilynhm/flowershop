@@ -5,7 +5,7 @@ header, nav, main, aside, article, section, footer, div{
 }
 
 #wrapper{
-    margin:0px 125px;
+    margin:0px 32px;
 }
 
 body {
@@ -70,6 +70,9 @@ section#main-page {
     height: 797px;
     padding-top: 1px;
     border-radius: 5px;
+    width: 100vw; /* Utilise 100% de la largeur de l'écran */
+    height: 100vh; /* Utilise 100% de la hauteur de l'écran */
+    padding-top: 1px;
 }
 
 #text {
@@ -82,20 +85,19 @@ section#main-page {
 #text span{
     font-family: 'Nunito', sans-serif;
     font-size: 96px;
-    color: #F6B6A7;
+    color: #D7CE93;
     font-weight: 800;
 }
 
 #text p{
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
-    color: #A66D45;
+    color: #FCEBD0;
     font-weight: 600;
 }
 
 #second-part{
     margin-top: 32px;
-    margin-left: 32px;
 }
 
 #second-part span{
@@ -262,8 +264,19 @@ footer ul{
     letter-spacing: 0%;
     color: #A66D45;
     list-style-type: none;
+    text-decoration: none;
+    margin-right: 150px;
 
 }
+
+a:hover {
+            color: #A66D45; /* Couleur lors du survol */
+        }
+
+        /* Couleur des liens après avoir été cliqués */
+        a:visited {
+            color: #A66D45; /* Couleur des liens visités */
+        }
 
 footer li{
     margin-bottom: 8px;
